@@ -1,5 +1,43 @@
 .container {
-  max-width: 1200px;
+  max-width: 1248px;
   margin: auto;
-  background-color: #feffed;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+nav {
+  max-height: 90px;
+  padding-top: 41px;
+  padding-bottom: 26px;
+  text-align: center;
+  background-color: #313030;
+}
+nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(224, 224, 224);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  padding: 45px 30px 30px;
+}
+nav a:hover {
+  background-color: #ff3f40;
+}
+
+/* nav a:active {
+  background-color: #ff3f40;
+} */
+.active {
+  background-color: #ff3f40;
+}
+
+.contact {
+}
+.about_us {
+}
+.portfolio {
+}
+.home {
 }
